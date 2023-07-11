@@ -26,6 +26,10 @@
   font-weight: 400;
   line-height: 30px;
 }
+.section {
+  width: 100%;
+  margin: 130px 0;
+}
 
 /* Header related styles */
 .head-banner {
@@ -57,10 +61,6 @@
 /* Main section styles */
 
 /* Our feature realted styles */
-.our-feature-section {
-  width: 100%;
-  margin: 130px 0;
-}
 
 .feature-title {
   color: #272727;
@@ -113,10 +113,6 @@
 }
 
 /* Happiness section styles */
-.be-part-section {
-  width: 100%;
-  margin: 130px 0;
-}
 
 .happy-img {
   width: 500px;
@@ -142,11 +138,6 @@
 
 /* we-provide section styles */
 
-.we-provide {
-  margin: 130px 0;
-  width: 100%;
-}
-
 .provide-container {
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
@@ -161,8 +152,6 @@
 
 /* Hot deal section styles */
 .hot-deal {
-  width: 100%;
-  margin: 130px 0;
   background: rgba(229, 84, 115, 0.05);
 }
 .deal-title {
@@ -171,13 +160,51 @@
 .deal-title span {
   color: #e55473;
 }
-.deal-description{
-    text-align: center;
+.deal-description {
+  text-align: center;
 }
 
-.deal-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 70px 0;
+.deal-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 0;
+}
+
+/* Instagram section styles here */
+
+.insta-content-1 {
+  text-align: center;
+}
+
+.insta-content-2 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.insta-flower {
+  width: 300px;
+}
+/* latest deal section styles */
+.latest-deal-container{
+    background-image: url("../Rec9/Rectangle9.png");
+    height: 500px;
+    width: 80%;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.email-input {
+  width: 500px;
+  height: 64px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+.deal-description{
+    padding: 60px 0;
 }
