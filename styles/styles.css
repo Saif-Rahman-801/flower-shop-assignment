@@ -1,0 +1,19 @@
+/* shared styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/* Header related styles */
+.head-banner{
+    width: 100%;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner-content-container{
+    width: 80% ;
+    margin: 0 auto;
+}
