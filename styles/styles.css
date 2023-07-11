@@ -154,7 +154,30 @@
   justify-content: space-between;
 }
 
-.icon-2{
+.icon-2 {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Hot deal section styles */
+.hot-deal {
+  width: 100%;
+  margin: 130px 0;
+  background: rgba(229, 84, 115, 0.05);
+}
+.deal-title {
+  font-size: 40px;
+}
+.deal-title span {
+  color: #e55473;
+}
+.deal-description{
     text-align: center;
-    padding: 50px;
+}
+
+.deal-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
 }
