@@ -113,29 +113,48 @@
 }
 
 /* Happiness section styles */
-.be-part-section{
-    width: 100%;
-    margin: 130px 0;
+.be-part-section {
+  width: 100%;
+  margin: 130px 0;
 }
 
-.happy-img{
-    width: 500px;
+.happy-img {
+  width: 500px;
 }
 
-.be-part-content-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.be-part-content-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.be-part-title-2{
-    font-size: 30px;
+.be-part-title-2 {
+  font-size: 30px;
 }
 
-.connect{
-    margin-top: 10px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 20px;
+.connect {
+  margin-top: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+/* we-provide section styles */
+
+.we-provide {
+  margin: 130px 0;
+  width: 100%;
+}
+
+.provide-container {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-2{
+    text-align: center;
+    padding: 50px;
 }
