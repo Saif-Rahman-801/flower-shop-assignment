@@ -15,6 +15,12 @@
   margin-bottom: 20px;
 }
 
+.desc-title {
+  color: #272727;
+  font-size: 60px;
+  font-weight: 900;
+}
+
 .div-center {
   width: 80%;
   margin: 0 auto;
@@ -45,12 +51,6 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
-}
-
-.desc-title {
-  color: #272727;
-  font-size: 60px;
-  font-weight: 800;
 }
 
 .head-banner-img {
@@ -116,6 +116,7 @@
 
 .happy-img {
   width: 500px;
+  border-radius: 50%;
 }
 
 .be-part-content-container {
@@ -180,11 +181,12 @@
 .insta-content-2 {
   margin-top: 40px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 25px;
 }
 
 .insta-flower {
-  width: 300px;
+  width: 250px;
 }
 /* latest deal section styles */
 .latest-deal-container {
@@ -210,8 +212,8 @@
 }
 
 /* footer styles here */
-.shop-title{
-    color: white;
+.shop-title {
+  color: white;
 }
 
 .flower-span {
@@ -236,4 +238,3 @@
   padding: 100px 0;
   text-align: center;
 }
-
