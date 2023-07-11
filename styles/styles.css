@@ -15,6 +15,18 @@
   margin-bottom: 20px;
 }
 
+.div-center {
+  width: 80%;
+  margin: 0 auto;
+}
+.desc-para {
+  margin: 20px 0;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
 /* Header related styles */
 .head-banner {
   width: 100%;
@@ -22,8 +34,8 @@
 }
 
 .banner-content-container {
-  width: 80%;
-  margin: 0 auto;
+  /* width: 80%;
+  margin: 0 auto; */
   padding-top: 30px;
   display: flex;
   justify-content: center;
@@ -37,10 +49,65 @@
   font-weight: 800;
 }
 
-.desc-para {
-  margin: 20px 0;
-  color: rgba(39, 39, 39, 0.6);
+.head-banner-img {
+  width: 500px;
+  height: 95vh;
+}
+
+/* Main section styles */
+
+/* Our feature realted styles */
+.our-feature-section {
+  width: 100%;
+  margin: 130px 0;
+}
+
+.feature-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.feature-desc {
+  text-align: center;
+}
+
+.flower-title {
+  color: #272727;
+  margin: 30px 0;
+  text-align: center;
   font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.featured-flower-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.flower-img-1 {
+  width: 310px;
+  height: 400px;
+  padding: 50px 50px 0 50px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-img-2 {
+  width: 370px;
+  height: 370px;
+  padding: 60px 20px 20px 20px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-img-3 {
+  width: 310px;
+  height: 400px;
+  padding: 50px 50px 0 50px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
 }
