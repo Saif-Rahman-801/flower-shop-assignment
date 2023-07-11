@@ -111,3 +111,31 @@
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
 }
+
+/* Happiness section styles */
+.be-part-section{
+    width: 100%;
+    margin: 130px 0;
+}
+
+.happy-img{
+    width: 500px;
+}
+
+.be-part-content-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.be-part-title-2{
+    font-size: 30px;
+}
+
+.connect{
+    margin-top: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
