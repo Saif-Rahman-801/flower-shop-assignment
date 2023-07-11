@@ -187,13 +187,13 @@
   width: 300px;
 }
 /* latest deal section styles */
-.latest-deal-container{
-    background-image: url("../Rec9/Rectangle9.png");
-    height: 500px;
-    width: 80%;
-    border-radius: 5px;
-    background-repeat: no-repeat;
-    background-size: contain;
+.latest-deal-container {
+  background-image: url("../Rec9/Rectangle9.png");
+  height: 500px;
+  width: 80%;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .email-input {
   width: 500px;
@@ -205,6 +205,35 @@
   margin-right: 10px;
 }
 
-.deal-description{
-    padding: 60px 0;
+.deal-description {
+  padding: 60px 0;
 }
+
+/* footer styles here */
+.shop-title{
+    color: white;
+}
+
+.flower-span {
+  color: #e55473;
+}
+
+.footer {
+  margin: 0 0;
+  background-color: #111010;
+}
+
+.footer-p {
+  padding: 20px 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.copyright-p {
+  padding: 0;
+}
+
+.footer-content {
+  padding: 100px 0;
+  text-align: center;
+}
+
